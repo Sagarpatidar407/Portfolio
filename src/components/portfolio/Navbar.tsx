@@ -35,7 +35,15 @@ const Navbar = () => {
           <span className="text-xs text-muted-foreground font-mono">{dateTime}</span>
         </div>
       </div>
-      <span className="text-xl font-medium tracking-tight text-foreground italic">
+      <span
+        className="text-[1.6rem] leading-none select-none text-white dark:text-white"
+        style={{
+          fontFamily: "'Dancing Script', cursive",
+          fontWeight: 700,
+          color: "hsl(var(--foreground))",
+          letterSpacing: "0.02em",
+        }}
+      >
         Sagar Patidar
       </span>
     </motion.nav>
