@@ -7,7 +7,7 @@ import AnimatedSection from "./AnimatedSection";
 const stats = [
   {
     icon: Code2,
-    value: 98,
+    value: 256,
     suffix: "+",
     label: "Problems Solved",
     sublabel: "GFG + Codolio combined",
@@ -17,7 +17,7 @@ const stats = [
   },
   {
     icon: FolderGit2,
-    value: 3,
+    value: 7,
     suffix: "",
     label: "Projects Built",
     sublabel: "MERN · PHP · React",
@@ -38,7 +38,7 @@ const stats = [
   },
   {
     icon: Star,
-    value: 226,
+    value: 676,
     suffix: "",
     label: "Coding Score",
     sublabel: "GeeksforGeeks",
